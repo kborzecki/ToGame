@@ -1,0 +1,9 @@
+<div class="map-container">
+    <div *ngFor="let row of map; let i = index" class="row map-row" >
+      <div *ngFor="let cell of row; let j = index" class="map-cell"
+           [style.background-color]="cell.view.color"
+           [style.color]="cell.view.fontColor"
+           (click)="build(i, j)">{{cell.view.displayName}}
+      </div>
+    </div>
+</div>

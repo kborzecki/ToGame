@@ -1,0 +1,17 @@
+.main {
+  margin-top: 110px;
+}
+
+.reverse-button {
+  margin: 15px 0;
+}
+
+.map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+simple-notifications::ng-deep .simple-notification-wrapper {
+  width: 500px;
+}

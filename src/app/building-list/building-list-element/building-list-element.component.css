@@ -1,0 +1,28 @@
+.building-list-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  background: snow;
+  cursor: pointer;
+}
+
+.building-list-element.active {
+  background: lightskyblue;
+}
+
+.building-icon {
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-family: 'Squada One', cursive;
+}
+
+.building-name {
+  font-size: 1.8rem;
+  font-family: 'Squada One', cursive;
+}

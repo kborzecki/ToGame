@@ -1,0 +1,8 @@
+<div class="building-list-element row" [class.active]="isActive()" (click)="setSelectedBuilding()">
+  <div class="building-icon col-lg-2" [style.background-color]="building.view.color" [style.color]="building.view.fontColor">{{building.view.displayName}}</div>
+  <div class="col-lg-10">
+    <div class="building-name col-lg-12">{{building.name}}</div><br>
+    <div class="col-lg-6">Koszt<br>{{building.cost | number:'1.0-0'}} zł</div>
+    <div class="col-lg-6">Przychód<br>{{building.income | number:'1.0-0'}} zł / 10sek</div>
+  </div>
+</div>
